@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Raleway:400,900') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Black', sans-serif;
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular', sans-serif;
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype'),
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 151px 0 0 0;
+    color: #303030;
+    font-family: "Open Sans", Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+a {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+a.hover {
+    text-decoration: none;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+.holder::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+header {
+    position: fixed;
+    padding-top: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #f0f0f0;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header a.logo {
+    font-family: 'Roboto-Black', sans-serif;
+    height: 36px;
+    font-weight: 400;
+    font-size: 48px;
+    color: #303030;
+    letter-spacing: 1.2px;
+}
+
+header a.logo:hover {
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+    padding-top: 15px;
+}
+
+header nav a {
+    display: inline-block;
+    font-size: 18px;
+    color: #303030;
+    padding: 0 20px;
+    margin-left: 6px;
+    transition: all .3s;
+    line-height: 27px;
+}
+
+header nav img {
+    width: 17px;
+    height: 14px;
+}
+
+.slider {
+    position: relative;
+    height: 852px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.slider img {
+    position: relative;
+    margin-left: 100px;
+    text-align: center;
+    width: 365px;
+    height: 491px;
+}
+
+.black-and-white {
+    width: 50%;
+    display: inline-block;
+}
+
+.black-and-white span {
+    font-family: 'Rail-way, sans-serif';
+    font-weight: 900;
+    font-size: 150px;
+    text-transform: uppercase;
+
+}
+
+.black-and-white p {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 24px;
+    text-align: right;
+    line-height: 36px;
+}
+
+.black-and-white p a {
+color: #e10011;
+}
+
+section.featured-product {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    background-color: #ffffff;
+    text-align: center;
+    width: 1198px;
+    padding-top: 114px;
+}
+
+section.featured-product h2 {
+    margin-bottom: 0;
+}
+
+section.featured-product p {
+    font-size: 18px;
+    margin: 0 auto 48px;
+    line-height: 24px;
+}
+
+.gallery {
+    width: 1198px;
+    display: inline-block;
+    text-align: center;
+}
+
+.speaker {
+    width: 642px;
+    height: 387px;
+    background-image: url('../images/Rectangle_3.png');
+}
+
+.headphones {
+
+    background-image: url('../images/Rectangle_3_copy_2.png');
+}
+
+.headphones,
+.red-rectangle {
+    width: 328px;
+    height: 387px;
+}
+
+.red-rectangle {
+    background-image: url('../images/Layer_2.png');
+}
+
+.red-rectangle h3 {
+    color: #f0f0f0;
+}
